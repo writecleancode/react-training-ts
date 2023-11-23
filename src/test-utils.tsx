@@ -1,11 +1,16 @@
 import { render } from '@testing-library/react';
 import { CarsProvider } from './providers/CarsProvider';
+import { ReactNode } from 'react';
 
-const AllTheProviders = ({ children }) => {
+type AllTheProvidersProps = {
+	children: ReactNode;
+};
+
+const AllTheProviders = ({ children }: AllTheProvidersProps) => {
 	return <CarsProvider>{children}</CarsProvider>;
 };
 
-const customRender = (ui, options) => render(ui, { wrapper: AllTheProviders, ...options });
+const customRender = (ui: any, options?: object) => render(ui, { wrapper: AllTheProviders, ...options });
 
 // re-export everything
 export * from '@testing-library/react';

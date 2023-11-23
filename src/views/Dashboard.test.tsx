@@ -1,9 +1,9 @@
-import { fireEvent, render, screen } from 'src/test-utils';
+import { fireEvent, render, screen } from '../test-utils';
 import '@testing-library/jest-dom';
 import { setupServer } from 'msw/node';
-import { handlers } from 'src/mocks/handlers';
+import { handlers } from '../mocks/handlers';
 import { BrowserRouter } from 'react-router-dom';
-import { MainTemplate } from 'src/components/templates/MainTemplate';
+import { MainTemplate } from '../components/templates/MainTemplate';
 import { Dashboard } from './Dashboard';
 
 const server = setupServer(...handlers);

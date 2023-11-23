@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from 'src/test-utils';
+import { fireEvent, render, screen } from '../test-utils';
 import { AddCar } from './AddCar';
 import { Dashboard } from './Dashboard';
 
