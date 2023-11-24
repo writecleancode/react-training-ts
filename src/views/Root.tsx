@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import { GlobalStyle } from '../assets/styles/GlobalStyle';
-import { MainTemplate } from '../components/templates/MainTemplate';
-import { CarsProvider } from '../providers/CarsProvider';
+import { GlobalStyle } from 'src/assets/styles/GlobalStyle';
+import { MainTemplate } from 'src/components/templates/MainTemplate';
+import { CarsProvider } from 'src/providers/CarsProvider';
 import { Dashboard } from './Dashboard';
 import { AddCar } from './AddCar';
 

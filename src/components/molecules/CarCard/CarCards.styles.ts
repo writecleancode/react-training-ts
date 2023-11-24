@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StyledButton } from '../../atoms/StyledButton/StyledButton';
+import { StyledButton } from 'src/components/atoms/StyledButton/StyledButton';
 
 export const Wrapper = styled.div`
 	position: relative;
@@ -28,7 +28,7 @@ export const DeleteButton = styled(StyledButton)`
 	right: 1.6rem;
 	padding: 0.4rem 0.6rem;
 	fill: #fff;
-	transition: fill .3s;
+	transition: fill 0.3s;
 
 	&:hover {
 		fill: #555;

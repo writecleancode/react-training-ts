@@ -1,9 +1,9 @@
 import { useContext } from 'react';
-import { CarsContext } from '../../../providers/CarsProvider';
-import { CarName } from '../../atoms/CarName/CarName';
-import { CarImg } from '../../atoms/CarImg/CarImg';
-import { CarInfoBox } from '../../atoms/CarInfoBox/CarInfoBox';
-import { TrashIcon } from '../../../assets/icons/TrashIcon';
+import { CarsContext } from 'src/providers/CarsProvider';
+import { CarName } from 'src/components/atoms/CarName/CarName';
+import { CarImg } from 'src/components/atoms/CarImg/CarImg';
+import { CarInfoBox } from 'src/components/atoms/CarInfoBox/CarInfoBox';
+import { TrashIcon } from 'src/assets/icons/TrashIcon';
 import { CarInfoWrapper, DeleteButton, Wrapper } from './CarCards.styles';
 
 type Car = {

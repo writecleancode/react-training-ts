@@ -1,6 +1,6 @@
 import { ChangeEvent } from 'react';
-import { StyledLabel } from '../../atoms/StyledLabel/StyledLabel';
-import { StyledInput } from '../../atoms/StyledInput/StyledInput';
+import { StyledLabel } from 'src/components/atoms/StyledLabel/StyledLabel';
+import { StyledInput } from 'src/components/atoms/StyledInput/StyledInput';
 import { Wrapper } from './FormField.styles';
 
 type FormFieldProps = {

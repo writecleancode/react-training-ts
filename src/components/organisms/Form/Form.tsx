@@ -1,7 +1,7 @@
 import { FormEvent, useContext } from 'react';
-import { CarsContext } from '../../../providers/CarsProvider';
-import { FormField } from '../../molecules/FormField/FormField';
-import { StyledButton } from '../../atoms/StyledButton/StyledButton';
+import { CarsContext } from 'src/providers/CarsProvider';
+import { FormField } from 'src/components/molecules/FormField/FormField';
+import { StyledButton } from 'src/components/atoms/StyledButton/StyledButton';
 import { Wrapper } from './Form.styles';
 
 export const Form = () => {

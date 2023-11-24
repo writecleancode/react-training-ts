@@ -1,5 +1,5 @@
 import { ChangeEvent } from 'react';
-import { SearchIcon } from '../../../assets/icons/SearchIcon';
+import { SearchIcon } from 'src/assets/icons/SearchIcon';
 import { IconBox, Input, Wrapper } from './SearchInput.styles';
 
 type SearchInputProps = {

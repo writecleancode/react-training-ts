@@ -1,5 +1,5 @@
 import { ChangeEvent, useContext, useEffect, useState } from 'react';
-import { CarsContext } from '../../../providers/CarsProvider';
+import { CarsContext } from 'src/providers/CarsProvider';
 import { StyledSelect, Wrapper } from './SortSelect.styles';
 
 type SortSelectProps = {

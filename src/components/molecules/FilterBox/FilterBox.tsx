@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import { CarsContext } from '../../../providers/CarsProvider';
-import { StyledTitle } from '../../atoms/StyledTitle/StyledTitle';
+import { CarsContext } from 'src/providers/CarsProvider';
+import { StyledTitle } from 'src/components/atoms/StyledTitle/StyledTitle';
 import { FilterItem, FilterItems, Wrapper } from './FilterBox.styles';
 
 type FilterBoxProps = {

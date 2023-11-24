@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StyledTitle } from '../components/atoms/StyledTitle/StyledTitle';
+import { StyledTitle } from 'src/components/atoms/StyledTitle/StyledTitle';
 
 export const Wrapper = styled.div`
 	display: flex;

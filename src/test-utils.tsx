@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { CarsProvider } from './providers/CarsProvider';
+import { CarsProvider } from 'src/providers/CarsProvider';
 import { ReactNode } from 'react';
 
 type AllTheProvidersProps = {

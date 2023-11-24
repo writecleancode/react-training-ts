@@ -1,8 +1,8 @@
 import { HttpResponse, http } from 'msw';
-import { cars as carsData } from '../data/cars';
 import { v4 as uuid } from 'uuid';
-import { filterBrands, filterYears } from '../data/filters';
-import { selectOptions } from '../data/select';
+import { cars as carsData } from 'src/mocks/data/cars';
+import { filterBrands, filterYears } from 'src/mocks/data/filters';
+import { selectOptions } from 'src/mocks/data/select';
 
 let cars = carsData;
 

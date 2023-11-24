@@ -1,9 +1,9 @@
 import { ChangeEvent, useContext, useEffect, useState } from 'react';
 import axios from 'axios';
-import { CarsContext } from '../providers/CarsProvider';
-import { SearchInput } from '../components/atoms/SearchInput/SearchInput';
-import { SortSelect } from '../components/atoms/SortSelect/SortSelect';
-import { CarCard } from '../components/molecules/CarCard/CarCard';
+import { CarsContext } from 'src/providers/CarsProvider';
+import { SearchInput } from 'src/components/atoms/SearchInput/SearchInput';
+import { SortSelect } from 'src/components/atoms/SortSelect/SortSelect';
+import { CarCard } from 'src/components/molecules/CarCard/CarCard';
 import { CarsWrapper, SearchWrapper, Wrapper } from './Dashboard.styles';
 
 export const Dashboard = () => {
@@ -25,7 +25,10 @@ export const Dashboard = () => {
 	return (
 		<Wrapper>
 			<SearchWrapper>
-				<SearchInput value={searchPhrase} onChange={(e: ChangeEvent<HTMLInputElement>) => setSearchPhrase(e.target.value)} />
+				<SearchInput
+					value={searchPhrase}
+					onChange={(e: ChangeEvent<HTMLInputElement>) => setSearchPhrase(e.target.value)}
+				/>
 				<SortSelect options={selectOptions} />
 			</SearchWrapper>
 			<CarsWrapper>

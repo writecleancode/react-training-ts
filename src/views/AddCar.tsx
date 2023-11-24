@@ -1,7 +1,7 @@
 import { useContext } from 'react';
-import { CarsContext } from '../providers/CarsProvider';
-import { Form } from '../components/organisms/Form/Form';
-import { CarCard } from '../components/molecules/CarCard/CarCard';
+import { CarsContext } from 'src/providers/CarsProvider';
+import { Form } from 'src/components/organisms/Form/Form';
+import { CarCard } from 'src/components/molecules/CarCard/CarCard';
 import { PreviewTitle, PreviewWrapper, Wrapper } from './AddCar.styles';
 
 export const AddCar = () => {
